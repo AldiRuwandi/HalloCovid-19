@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RumahSakitActivity"
+    android:background="@color/color_background"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageBackRumahSakit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_back"
+            app:tint="@color/color_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Rumah Sakit"
+            android:textSize="30sp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textColor="@color/color_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="beberapa rumah sakit yang bisa menangani pasien Covid-19."
+            android:textSize="16sp"
+            android:fontFamily="@font/ubuntu_regular"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_text"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RSIA Belleza\nKedaton"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jl.Sultan H., Labuhan Ratu,\nKec.Kedaton, Kota Bandar Lampung, Lampung 35132"
+                android:textColor="@color/white"
+                android:layout_below="@id/title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"/>
+            
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:maxHeight="100dp"
+                android:src="@drawable/ic_hospitalone"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_text"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/titleone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rumah Sakit\nAdvent"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl.Teuku Umar No.48,\nSidodadi, Kec.Kedaton, Kota Bandar Lampung, Lampung 35148"
+                    android:textColor="@color/white"
+                    android:layout_below="@id/titleone"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ic_hospitaltwo"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_text"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/titletwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rumah Sakit\nUrip\nSumoharjo"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl.Urip Sumoharjo No.200, Gn.Sulah, WayHalim, Kota Bandar Lampung, Lampung 35132"
+                    android:textColor="@color/white"
+                    android:layout_below="@id/titletwo"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ic_hospitalthree"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_text"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/titlefour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Abdul\nMoeloek"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl.Dr.Rivai No.6, Penengahan,\nKec.Tj.Karang Pusat, Kota Bandar Lampung, Lampung 35112"
+                    android:textColor="@color/white"
+                    android:layout_below="@id/titlefour"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ic_hospitalfour"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_text"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/titlefive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RS Graha\nHusada"
+                    android:textSize="30sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jl.Pajajaran No.109, \nJagabayaII, WayHalim, Kota Bandar Lampung, Lampung 35132"
+                    android:textColor="@color/white"
+                    android:layout_below="@id/titlefive"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ic_hospitalfive"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
